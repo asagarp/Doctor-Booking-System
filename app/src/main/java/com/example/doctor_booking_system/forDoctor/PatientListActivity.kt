@@ -12,12 +12,12 @@ import java.util.ArrayList
 class PatientListActivity : AppCompatActivity() {
 
     private val patientsList: List<Patient> = listOf(
-        Patient("Dr. Sagar Chhantyal", "Cardiologist", R.drawable.doctor),
-        Patient("Dr. Rabin Darlami", "Pediatrician", R.drawable.doctor),
-        Patient("Dr. Nelson Gurung", "Dermatologist", R.drawable.doctor),
-        Patient("Dr. Nirmal Gurung", "Pediatrician", R.drawable.doctor),
-        Patient("Dr. Samip Kathayat", "Gyanakologist", R.drawable.doctor),
-        Patient("Dr. Geeta Shrestha", "Dermatologist", R.drawable.doctor)
+        Patient("Sonia Mishra", "Diabetes", R.drawable.doctor),
+        Patient("Avishek Yadav", "Leg Infection", R.drawable.doctor),
+        Patient("Aashish Pun", "Skin Infection", R.drawable.doctor),
+        Patient("Gautam Dhakal", "Eyes Problems", R.drawable.doctor),
+        Patient("Sujan Paudel", "Fever", R.drawable.doctor),
+        Patient("Geeta Shreesh", "Diarrhea", R.drawable.doctor)
         // Add more doctors as needed
     )
 

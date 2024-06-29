@@ -41,7 +41,7 @@ class PatientAdapter(
         // Populate views if doctor is not null
         patient?.let {
             viewHolder.nameTextView.text = it.name
-            viewHolder.specialtyTextView.text = it.specialty
+            viewHolder.specialtyTextView.text = it.condition
             viewHolder.imageView.setImageResource(it.imageID)
         }
 

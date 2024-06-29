@@ -51,7 +51,8 @@ class PatientActivity : AppCompatActivity() {
 
         findViewById<Button>(R.id.appointments).setOnClickListener {
             val intent = Intent(this, AppointmentActivity::class.java)
-            intent.getParcelableArrayListExtra("bookedDoctors", Doctor::class.java) ?: ArrayList()
+            val bookedDoctors = intent.getParcelableArrayListExtra<Doctor>("bookedDoctors") ?: ArrayList()
+            intent.putParcelableArrayListExtra("bookedDoctors", bookedDoctors)
             startActivity(intent)
         }
 

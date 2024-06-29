@@ -4,7 +4,7 @@ import android.os.Parcel
 import android.os.Parcelable
 import com.example.doctor_booking_system.forUser.Doctor
 
-data class Patient(val name: String, val specialty: String, val imageID: Int) : Parcelable {
+data class Patient(val name: String, val condition: String, val imageID: Int) : Parcelable {
 
     constructor(parcel: Parcel) : this(
         parcel.readString() ?: "",
@@ -14,7 +14,7 @@ data class Patient(val name: String, val specialty: String, val imageID: Int) : 
 
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(name)
-        parcel.writeString(specialty)
+        parcel.writeString(condition)
         parcel.writeInt(imageID)
     }
 
