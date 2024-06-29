@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name" translatable="false">Doctor_Booking_System</string>
+
+    <!--    for login page-->
+    <string name="welcome_back" translatable="false">Welcome Back!</string>
+    <string name="excited_text">We are excited to have you back!</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="login_botton">LOGIN</string>
+    <string name="no_account">Don\'t have an account?</string>
+    <string name="signup_text">Signup</string>
+
+    <!--    for signup page-->
+    <string name="signup_picture_description">she is a signup doctor.</string>
+    <string name="signup_now">Sign up now and start exploring all that our app has to offer.</string>
+    <string name="fullname_hint">Full Name</string>
+    <string name="signup_botton">SIGNUP</string>
+    <string name="have_account">Already have an account?</string>
+    <string name="login_text">Login</string>
+
+    <!--    for doctor page-->
+
+    <string name="welcome_doctor">Welcome Doctor</string>
+    <string name="how_can">How we can help you today?</string>
+    <string name="my_patients">My Patients</string>
+    <string name="profile">Profile</string>
+    <string name="patient_request">Patient Request</string>
+    <string name="calendar">Calendar</string>
+    <string name="signout">SIGNOUT</string>
+
+    <!--    for user page-->
+    <string name="welcome_user">Welcome User</string>
+    <string name="choose_option">Choose an option</string>
+    <string name="search">Search</string>
+    <string name="medical">Medical Folder</string>
+    <string name="appointment">Appointment</string>
+    <string name="my_doctors">My Doctors</string>
+
+    <!--    for doctor profile-->
+    <string name="my_profile">My Profile</string>
+    <string name="doctor_name">Dr.Sagar Chhantyal</string>
+    <string name="profession">MBBS, MD</string>
+    <string name="speciality">Neurologist</string>
+    <string name="experience">12 years experience</string>
+
+    <!--    for doctors list-->
+    <string name="doctors_list">Doctors list</string>
+    <string name="book">BOOK</string>
+    <string name="Sagar">Sagar</string>
+
+    <!--    for appointments-->
+    <string name="appointments_list">Appointments</string>
+
+    <!--    for user profile-->
+    <string name="user_name">Sonia Mishra</string>
+    <string name="height">Height: 5.6 in</string>
+    <string name="weight">Weight: 50 kgs</string>
+    <string name="condition">Condition: chronic disease(Diabetes)</string>
+    <string name="age">Age: 23</string>
+    <string name="user_picture">user picture</string>
+
+    <!--    for patient list-->
+    <string name="patients_list">Patients List</string>
+    <string name="my_calendar">My Calendar</string>
+    <string name="selected_date">Selected Date:</string>
+    <string name="time_slot">Time Slot</string>
+    <string name="details">Details</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="patient_request_hohai">Patient Request</string>
+    <string name="your_balance">Your balance</string>
+    <string name="balance">$ 926.21</string>
+    <string name="search_transaction">Search transaction</string>
+    <string name="today">Today</string>
+    <string name="sonia_mishra">Sonia Mishra</string>
+    <string name="_20_january_2019">20 January, 2019</string>
+    <string name="money">$ 972.00</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="franz_ferdinand">Franz Ferdinand</string>
+    <string name="_19_january_2019">19 January, 2019</string>
+    <string name="_125_00">$ 125.00</string>
+
+    <!--    for payment-->
+
+</resources>
